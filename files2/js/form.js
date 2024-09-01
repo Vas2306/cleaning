@@ -18,7 +18,7 @@ button.addEventListener("click", function () {
     message.style.color = "red";
   } else {
     message.textContent = "Ваши данные были отправлены";
-    message.style.color = "#00a300";
+    message.style.color = "white";
     form.reset();
   }
 });
